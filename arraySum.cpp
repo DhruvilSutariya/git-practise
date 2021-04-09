@@ -21,11 +21,7 @@ ll po(ll x, ll y) {
   } 
   return res; 
 }
-  
-void init(){
-  
-}
-  
+
 void solve(){
   ll n,k;
   cin>>n>>k;
@@ -58,7 +54,6 @@ void solve(){
   
 int main(){
   FAST;
-  init();
   int t = 1;
   cin>>t;
   while( t-- ) solve();
