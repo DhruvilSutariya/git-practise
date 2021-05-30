@@ -12,6 +12,7 @@ using namespace std;
 #define MINF LONG_LONG_MIN
   
 ll po(ll x, ll y) { 
+  // This is power function
   ll res = 1;
   while (y > 0) { 
     if (y & 1) 
