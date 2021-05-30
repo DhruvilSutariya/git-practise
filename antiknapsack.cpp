@@ -13,7 +13,7 @@ using namespace std;
 #define MOD 1000000007
   
 ll po(ll x, ll y) { 
-  // This is power function
+  // This is power function, which acceps 2 params
     ll res = 1;
     while (y > 0) { 
         if (y & 1) 
